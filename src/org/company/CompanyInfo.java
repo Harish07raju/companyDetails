@@ -36,6 +36,8 @@ public class CompanyInfo {
 		c.CompanyID();
 		c.CompanyName();
 		c.CompanyAddress();
+		c.CompanyLocation();
+		c.CompanyEmployeeDetails();
 
 	}
 
