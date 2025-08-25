@@ -29,6 +29,11 @@ public class CompanyInfo {
 		System.out.println("The totall employees present upto date is 5000 people");
 	}
 
+	public void CompanyProjrct()
+	{
+		System.out.println("Project of amazon delivary");
+	}
+
 	public static void main(String[] args) {
 		//object creation
 		CompanyInfo c = new CompanyInfo();
