@@ -18,7 +18,7 @@ public class CompanyInfo {
 	{
 		System.out.println("No 07 OMR ROad 1st Cross Thoraipakkam, Chennai 600028.");
 	}
-	
+
 	private void CompanyLocation()
 	{
 		System.out.println("The ABC company has been located in Mumbai");
@@ -38,18 +38,25 @@ public class CompanyInfo {
 	{
 		System.out.println("GST Number is 00000000000");
 	}
-	
 
+	public void CompanyManager()
+	{
+		System.out.println("COmpany Manager is Mr.Rajiv");
+	}
 	public static void main(String[] args) {
 		//object creation
 		CompanyInfo c = new CompanyInfo();
-		//method calling
+		c.CompanyName();
 		c.CompanyID();
 		c.CompanyName();
 		c.CompanyAddress();
 		c.CompanyLocation();
 		c.CompanyEmployeeDetails();
+		c.CompanyProjrct();
 		c.CompanyGSTNumber();
+		
+		
+
 
 	}
 
