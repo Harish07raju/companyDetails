@@ -54,6 +54,7 @@ public class CompanyInfo {
 		c.CompanyEmployeeDetails();
 		c.CompanyProjrct();
 		c.CompanyGSTNumber();
+		c.CompanyManager();
 		
 		
 
