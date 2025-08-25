@@ -33,6 +33,12 @@ public class CompanyInfo {
 	{
 		System.out.println("Project of amazon delivary");
 	}
+	
+	public void CompanyGSTNumber()
+	{
+		System.out.println("GST Number is 00000000000");
+	}
+	
 
 	public static void main(String[] args) {
 		//object creation
@@ -43,6 +49,7 @@ public class CompanyInfo {
 		c.CompanyAddress();
 		c.CompanyLocation();
 		c.CompanyEmployeeDetails();
+		c.CompanyGSTNumber();
 
 	}
 
