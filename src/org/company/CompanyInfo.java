@@ -19,6 +19,11 @@ public class CompanyInfo {
 		System.out.println("No 07 OMR ROad 1st Cross Thoraipakkam, Chennai 600028.");
 	}
 
+	public void CompanyProjrct()
+	{
+		System.out.println("Project of amazon delivary");
+	}
+
 	public static void main(String[] args) {
 		//object creation
 		CompanyInfo c = new CompanyInfo();
